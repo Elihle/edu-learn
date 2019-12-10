@@ -37,8 +37,13 @@ public class App {
             return new ModelAndView(new HashMap<>(), "hotspots.hbs");
         }, new HandlebarsTemplateEngine());
 
+        get("/Material", (req,res) -> {
+            return new ModelAndView(new HashMap<>(), "study.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        get("/Tutor", (req,res) -> {
+            return new ModelAndView(new HashMap<>(), "tutor.hbs");
+        }, new HandlebarsTemplateEngine());
     }
 
-
-    
 }
