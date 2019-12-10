@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60347bd-833f-4a2a-86dd-4168610fda10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b9b67dd-8151-4d28-a776-72e5657383f6" name="Default Changelist" comment="" />
+      <changelist id="a60347bd-833f-4a2a-86dd-4168610fda10" name="Default Changelist" comment="" />
       <created>1575903839399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
