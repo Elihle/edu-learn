@@ -1,8 +1,8 @@
-#H1 Data Model
-![alt text][https://github.com/Elihle/edu-learn/blob/master/src/main/resources/public/images/data-model.jpg]
-#H1 Khanban
-![alt text][khanban.jpg]
-#H1 Persona 1
-![alt text][person-1.jpg]
-#H1 Prototype
-![alt text][prototype.jpg]
+# Data Model
+![data_model](images/data-model.jpg)
+# Khanban
+![khanban](images/khanban.jpg)
+# Persona 1
+![persona_1](images/person-1.jpg)
+# Prototype
+![prototype](images/prototype.jpg)
