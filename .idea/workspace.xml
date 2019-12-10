@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60347bd-833f-4a2a-86dd-4168610fda10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +85,31 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="422" y="201" width="579" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575904652406">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1280" y="243" width="579" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575970753683">
+      <screen x="0" y="27" width="2646" height="997" />
     </state>
+    <state x="1280" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.27.2646.997@0.27.2646.997" timestamp="1575970753683" />
     <state x="422" y="201" width="579" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1575904652406" />
     <state x="1280" y="378" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575967993574">
       <screen x="0" y="27" width="2646" height="997" />
     </state>
     <state x="1280" y="378" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.2646.997@0.27.2646.997" timestamp="1575967993574" />
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1575967194856" />
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom" timestamp="1575971800629">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom/0.27.2646.997@0.27.2646.997" timestamp="1575971800629" />
+    <state width="1320" height="131" key="GridCell.Tab.0.center" timestamp="1575971800628">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.center/0.27.2646.997@0.27.2646.997" timestamp="1575971800628" />
+    <state width="1320" height="131" key="GridCell.Tab.0.left" timestamp="1575971800628">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.left/0.27.2646.997@0.27.2646.997" timestamp="1575971800628" />
+    <state width="1320" height="131" key="GridCell.Tab.0.right" timestamp="1575971800629">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.right/0.27.2646.997@0.27.2646.997" timestamp="1575971800629" />
   </component>
 </project>
