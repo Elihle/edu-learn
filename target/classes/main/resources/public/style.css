@@ -1,0 +1,14 @@
+body {
+}
+
+.nav-bar {
+
+
+}
+.jumbotron {
+    background: url(images/study.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    height: 30em;
+}

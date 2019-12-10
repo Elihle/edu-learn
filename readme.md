@@ -3,7 +3,7 @@
 them to tutors so that they can be able to learn effectively.</p>
 
 ## Data Model
-![data_model](images/data-model.jpg) {wi}
+![data_model](images/data-model.jpg)
 ---
 ## Khanban
 ![khanban](images/khanban.jpg)
