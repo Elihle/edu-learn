@@ -1,3 +1,6 @@
+Edu-Learn is a platform that allows students to find nearest hotspots, study resources and links
+them to tutors so that they can be able to learn effectively.
+
 # Data Model
 ![data_model](images/data-model.jpg)
 # Khanban
