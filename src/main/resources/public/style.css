@@ -1,9 +1,9 @@
 body {
 }
 
-.nav-bar {
-
-
+.nav-bar img {
+width: 2em;
+height: 2em;
 }
 .jumbotron {
     background: url(images/study.jpeg);
