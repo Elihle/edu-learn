@@ -1,20 +1,30 @@
 {{#partial "body"}}
 
-    <h1 class=" main ">Welcome</h1>
+    <h1 class=" main ">Ask your tutors</h1>
 
     <form method="post" action="/hello">
         <div class="row">
-            <div class="col-12">
-                <h2>
-                    Enter Name below
-                </h2>
-                <input type="text" name="firstName"> <br>
-            </div>
-        </div>
-        <div>
+
+
+
+        <form action="action_page.php">
+
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Email address</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
             <button class="btn" type="submit">
-                login
+                Submit
             </button>
+
+        </form>
+        </div>
+
             <div class="row">
                 <div class="col-12">
 
