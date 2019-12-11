@@ -3,12 +3,29 @@
 
     <div class="container">
         <div>
-            <h1 class="main ">connect with tutor</h1>
+            <h1 class="main ">Ask your Tutors</h1>
         </div>
         <div class="row">
-            <div class="col-12">
-                <p>List comming soon....</p>
-            </div>
+
+
+
+            <form action="action_page.php">
+
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Email address</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <button class="btn" type="submit">
+                    Submit
+                </button>
+
+
+            </form>
         </div>
 
         <div class="row">
