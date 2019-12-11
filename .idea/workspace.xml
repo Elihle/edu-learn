@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c91f031-7ed5-4ea1-a3c3-69760cb2dbf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/learners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/logo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/stud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/studing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/study-material.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/tutor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/wifi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/study.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/tutor.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/create_users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/subjects.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/tutors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/learners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/logo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/stud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/studing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/study-material.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/tutor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/wifi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/simple-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/study.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ukc49VLWLFXDDUAWbsLck9lrZ9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="edu-learn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a60347bd-833f-4a2a-86dd-4168610fda10" name="Default Changelist" comment="" />
+      <created>1575903839399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575903839399</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1280" y="243" width="579" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575970753683">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state x="1280" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.27.2646.997@0.27.2646.997" timestamp="1575970753683" />
+    <state x="422" y="201" width="579" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1575904652406" />
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576062027779">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="1280" y="378" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.2646.997@0.27.2646.997" timestamp="1575967993574" />
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1576062027779" />
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom" timestamp="1575971800629">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom/0.27.2646.997@0.27.2646.997" timestamp="1575971800629" />
+    <state width="1320" height="131" key="GridCell.Tab.0.center" timestamp="1575971800628">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.center/0.27.2646.997@0.27.2646.997" timestamp="1575971800628" />
+    <state width="1320" height="131" key="GridCell.Tab.0.left" timestamp="1575971800628">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.left/0.27.2646.997@0.27.2646.997" timestamp="1575971800628" />
+    <state width="1320" height="131" key="GridCell.Tab.0.right" timestamp="1575971800629">
+      <screen x="0" y="27" width="2646" height="997" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.right/0.27.2646.997@0.27.2646.997" timestamp="1575971800629" />
+    <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1576056007397">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1576056007397" />
+  </component>
+</project>
