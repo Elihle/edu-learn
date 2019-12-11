@@ -11,11 +11,15 @@ height: 40%;
     top: 0;
     width: 100%;
     z-index: 99;
+    color:grey;
 }
-
-.nav-bar img {
+.nav-bar a {
+    color: white;
+}
+.navbar img {
     width: 2em;
     height: 2em;
+    border-radius: 50%;
 }
 
 .jumbotron {
