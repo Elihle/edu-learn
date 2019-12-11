@@ -1,14 +1,25 @@
 {{#partial "body"}}
 
-
     <div class="container">
         <div>
-            <h1 class="main ">connect with tutor</h1>
+            <h1 class="main ">Ask your Tutors</h1>
         </div>
         <div class="row">
-            <div class="col-12">
-                <p>List comming soon....</p>
-            </div>
+            <form action="//formspree.io/tutors.edulearn@gmail.com" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="name" placeholder="Enter Your Name">
+
+                <label for="email">Email address</label>
+                <input type="text" id="email" name="email-address" placeholder="Enter Your Email Address">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+
+                <label for="message">Ask your question</label>
+                <textarea id="text" name="message" placeholder="Write something" style="height:200px"></textarea>
+
+                <button class="btn btn-info" type="submit">Submit</button>
+            </form>
         </div>
 
         <div class="row">
