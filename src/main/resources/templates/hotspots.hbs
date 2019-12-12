@@ -10,6 +10,11 @@
 </head>
 {{#partial "body"}}
     <div ></div>
+    <p>Click the button to get your coordinates.</p>
+
+    <button onclick="getLocation()">Try It</button>
+
+    <p id="demo"></p>
 
     <br>
 
@@ -18,6 +23,22 @@
     <div id="map" style="width: 60%; text-align: center; height: 65%;"></div>
 <!--    <div id="legend"><h3>Legend</h3></div>-->
     <script>
+    var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
