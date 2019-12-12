@@ -13,6 +13,7 @@ p {
 
 .home {
    height: auto;
+
 }
 .nav-bar {
     position:fixed;
@@ -25,6 +26,11 @@ p {
 .nav-bar a {
     color: white;
 }
+
+.nav-bar a {
+    color: white;
+}
+
 
 .navbar img {
     width: 2em;
@@ -48,6 +54,10 @@ h1 {
    font-weight: bolder;
 }
 
+
+.footer {
+    text-align: center;
+}
 .wrapper {
     text-align: center;
     margin: auto;
@@ -64,4 +74,5 @@ h1 {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 }
