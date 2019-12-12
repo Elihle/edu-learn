@@ -51,31 +51,31 @@ public class App {
             port(getHerokuAssignedPort());
             Map<String, Object> dataMap = new HashMap<>();
             Connection connection = getDatabaseConnection("jdbc:postgresql://localhost/ourdb");//ourdb will the created db
-            StoringUsers storingUsers = new StoringUsers(connection);
+//            StoringUsers storingUsers = new StoringUsers(connection);
 
-            options("/*",
-                    (request, response) -> {
-
-                        String accessControlRequestHeaders = request
-                                .headers("Access-Control-Request-Headers");
-                        if (accessControlRequestHeaders != null) {
-                            response.header("Access-Control-Allow-Headers",
-                                    accessControlRequestHeaders);
-                        }
-
-                        String accessControlRequestMethod = request
-                                .headers("Access-Control-Request-Method");
-                        if (accessControlRequestMethod != null) {
-                            response.header("Access-Control-Allow-Methods",
-                                    accessControlRequestMethod);
-                        }
-
-                        return "OK";
-                    });
-
-            before((request, response) -> {
-                response.header("Access-Control-Allow-Origin", "*");
-            });
+//            options("/*",
+//                    (request, response) -> {
+//
+//                        String accessControlRequestHeaders = request
+//                                .headers("Access-Control-Request-Headers");
+//                        if (accessControlRequestHeaders != null) {
+//                            response.header("Access-Control-Allow-Headers",
+//                                    accessControlRequestHeaders);
+//                        }
+//
+//                        String accessControlRequestMethod = request
+//                                .headers("Access-Control-Request-Method");
+//                        if (accessControlRequestMethod != null) {
+//                            response.header("Access-Control-Allow-Methods",
+//                                    accessControlRequestMethod);
+//                        }
+//
+//                        return "OK";
+//                    });
+//
+//            before((request, response) -> {
+//                response.header("Access-Control-Allow-Origin", "*");
+//            });
 
             get("/", (req, res) -> {
                 return new ModelAndView(new HashMap<>(), "index.hbs");
