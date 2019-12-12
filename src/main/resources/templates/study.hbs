@@ -24,11 +24,14 @@
                 <a class="nav-item nav-link" href="/Wifi">Wifi Hotspots</a>
                 <a class="nav-item nav-link" href="/Material">Study Material</a>
                 <a class="nav-item nav-link" href="/Tutor">Find Tutor</a>
+            </div>
+        </div>
             </nav>
 </div>
+
 <div class="container">
-<h1>Search for Books</h1>
 <div id="search">
+    <h1>Search for Books</h1>
     <form id="myform">
         <div class="input-field">
             <input type="search" id="books">
@@ -56,6 +59,7 @@ $(document).ready(function () {
             var author = "";
 
             $.get("https://www.googleapis.com/books/v1/volumes?q=" + search, function (response) {
+                console.log(response);
                 let list = '';
 
                 for (let i = 0; i < response.items.length; i++) {

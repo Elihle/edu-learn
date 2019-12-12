@@ -38,6 +38,15 @@ p {
     border-radius: 50%;
 }
 
+#search {
+    margin-top: 5em;
+    text-align: center;
+}
+
+#search button {
+    margin-top: 1em;
+}
+
 .jumbotron {
     background: url(images/learners.png);
     background-attachment: fixed;

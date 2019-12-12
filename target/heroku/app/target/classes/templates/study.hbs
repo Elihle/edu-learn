@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<meta name="google-signin-client_id"
+      content="303665651255-5svcbpukj2fsqdv5onuuog4dusimrnhf.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>Edu-Learn</title>
+
+<body>
+<div class="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
+        <a class="navbar-brand" href="/"><img src="images/logo-1.jpg"><b>Edu-Learn</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="/">Home <i class="material-icons right"></i> <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/Wifi">Wifi Hotspots</a>
+                <a class="nav-item nav-link" href="/Material">Study Material</a>
+                <a class="nav-item nav-link" href="/Tutor">Find Tutor</a>
+            </nav>
+</div>
+<div class="container">
+<h1>Search for Books</h1>
+<div id="search">
+    <form id="myform">
+        <div class="input-field">
+            <input type="search" id="books">
+        </div>
+        <button class="submit btn btn-info">search</button>
+    </form>
+</div>
+</div>
+<div id="result">
+</div>
+
+</div>
+        </div>
+<script>
+$(document).ready(function () {
+    $("#myform").submit(function () {
+        var search = $("#books").val();
+
+        if (search == "") {
+            alert("Please write book name");
+        } else {
+            var url = "";
+            var img = "";
+            var title = "";
+            var author = "";
+
+            $.get("https://www.googleapis.com/books/v1/volumes?q=" + search, function (response) {
+                let list = '';
+
+                for (let i = 0; i < response.items.length; i++) {
+                    const element = response.items[i];
+
+                    list += `<div class='card'>
+                        <img src='${element.volumeInfo.imageLinks.smallThumbnail}' alt='books'>
+                        <div>
+                            <h4><b>${element.volumeInfo.title}</b></h4>
+                            <p></p>
+                        </div>
+                    </div><br />`
+
+                }
+                $("#result").append(list)
+            });
+            return false;
+        }
+    })
+
+});
+</script>
+</body>
+</html>
