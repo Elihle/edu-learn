@@ -2,10 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847e2280-bd6b-4542-bc68-9fbedec2dda4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/edu-learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_guava_cache_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_core_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_template_handlebars_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7R4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/edu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/education.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/group-study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/learn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/edu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/education.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/group-study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/learn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StoringUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StoringUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/db/subjects.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/db/subjects.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/db/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/db/users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/study.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/study.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tutor.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tutor.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StoringUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StoringUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/db/subjects.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/db/subjects.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/db/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/db/users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/study.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/study.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,30 +128,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="68" key="GridCell.Tab.0.bottom" timestamp="1576164485412">
+    <state width="1320" height="222" key="GridCell.Tab.0.bottom" timestamp="1576166698428">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="68" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576164485412" />
-    <state width="1320" height="68" key="GridCell.Tab.0.center" timestamp="1576164485412">
+    <state width="1320" height="222" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576166698428" />
+    <state width="1320" height="222" key="GridCell.Tab.0.center" timestamp="1576166698427">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="68" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576164485412" />
-    <state width="1320" height="68" key="GridCell.Tab.0.left" timestamp="1576164485411">
+    <state width="1320" height="222" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576166698427" />
+    <state width="1320" height="222" key="GridCell.Tab.0.left" timestamp="1576166698427">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="68" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576164485411" />
-    <state width="1320" height="68" key="GridCell.Tab.0.right" timestamp="1576164485412">
+    <state width="1320" height="222" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576166698427" />
+    <state width="1320" height="222" key="GridCell.Tab.0.right" timestamp="1576166698428">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="68" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576164485412" />
+    <state width="1320" height="222" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576166698428" />
     <state x="1280" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1576161396139">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
