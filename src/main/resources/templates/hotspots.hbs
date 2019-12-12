@@ -16,26 +16,47 @@
     <br>
 
     <div id="map" style="width: 60%; text-align: center; margin-right: 70em; height: 65%;"></div>
-
     <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.015300, lng: 18.650700},
-          zoom: 15,
-        });
-      }
-<!--       var locations = [-->
-<!--      ['Harare Sportsfield', -34.051450, 18.669150, 4],-->
-<!--      ['Library  , Harare complex', -34.057470, 18.671770, 5],-->
-<!--      ['Library , Site C complex', -34.015300, 18.650700, 3],-->
-<!--      ['Youth Clinic', -34.013530, 18.646660, 2],-->
-<!--      ['Mapethu Street ', -34.119280, 18.876230, 1]-->
-<!--    ];-->
-    var marker, i;
-    var pos = {lat: -33.976950, lng: 18.568310 }
-    var marker = new google.maps.Marker({position: pos, map: map});
 
+function initMap() {
+
+  var cnt = {lat: -34.015300, lng: 18.650700};
+
+  var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 15, center: cnt});
+
+   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+     var icons = {
+    Free Wifi: {
+      name: 'Wifi Hotspot',
+      icon: iconBase + 'parking_lot_maps.png'
+    }
+   };
+
+     var locations = [
+      ['Library  , Harare complex', -34.057470, 18.671770, 4],
+      ['Library ,   C complex', -34.015300, 18.650700, 5],
+      ['Youth Clinic', -34.013530, 18.646660, 3],
+      ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
+      ['Mapethu Street', -34.119280, 18.876230, 1]
+    ];
+ var infowindow = new google.maps.InfoWindow();
+var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+       google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+     }
+}
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU7dAqGQjaF_XO8UOBkAJBx9_pd7gnbtQ&callback=initMap"
             async defer></script>
