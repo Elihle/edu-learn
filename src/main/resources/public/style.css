@@ -1,9 +1,23 @@
 body {
 }
 
+
 .home img {
 width: 100%;
 height: 40%;
+
+
+p {
+    font-family: Serif;
+}
+
+.home img {
+    width: 100%;
+    height: 40%;
+}
+
+.home {
+   height: auto;
 
 }
 .nav-bar {
@@ -13,9 +27,16 @@ height: 40%;
     z-index: 99;
     color:grey;
 }
+
 .nav-bar a {
     color: white;
 }
+
+.nav-bar a {
+    color: white;
+}
+
+
 .navbar img {
     width: 2em;
     height: 2em;
@@ -35,6 +56,16 @@ h1 {
    font-weight: bolder;
 }
 
+
 .footer {
     text-align: center;
 }
+=======
+.wrapper {
+    text-align: center;
+    margin: auto;
+    background-color: grey;
+    color: white;
+}
+}
+

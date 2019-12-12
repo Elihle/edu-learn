@@ -1,3 +1,4 @@
+import spark.Filter;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import java.util.ArrayList;
@@ -18,10 +19,32 @@ public class App {
 
     public static void main(String[] args) {
         staticFiles.location("/public");
-
         port(getHerokuAssignedPort());
         Map<String, Object> dataMap = new HashMap<>();
 
+        options("/*",
+                (request, response) -> {
+
+                    String accessControlRequestHeaders = request
+                            .headers("Access-Control-Request-Headers");
+                    if (accessControlRequestHeaders != null) {
+                        response.header("Access-Control-Allow-Headers",
+                                accessControlRequestHeaders);
+                    }
+
+                    String accessControlRequestMethod = request
+                            .headers("Access-Control-Request-Method");
+                    if (accessControlRequestMethod != null) {
+                        response.header("Access-Control-Allow-Methods",
+                                accessControlRequestMethod);
+                    }
+
+                    return "OK";
+                });
+
+        before((request, response) -> {
+            response.header("Access-Control-Allow-Origin", "*");
+        });
 
         get("/", (req, res) -> {
             return new ModelAndView(new HashMap<>(), "index.hbs");
@@ -34,6 +57,7 @@ public class App {
         }, new HandlebarsTemplateEngine());
 
         get("/Wifi", (req,res) -> {
+
             return new ModelAndView(new HashMap<>(), "hotspots.hbs");
         }, new HandlebarsTemplateEngine());
 
