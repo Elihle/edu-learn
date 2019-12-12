@@ -2,9 +2,9 @@ import java.sql.*;
 import java.util.*;
 
 public class StoringUsers {
-    public StoringUsers() {
+    public StoringUsers(Connection connection) {
         try {
-            //create connection to DB
+            this.connection = connection;
             allSubjectsPS = connection.prepareStatement(ALL_SUBJECTS);
             findSubjectPS = connection.prepareStatement(FIND_SUBJECT);
             allUsersPS = connection.prepareStatement(ALL_USERS);
