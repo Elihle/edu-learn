@@ -24,20 +24,11 @@
                 <version>2.0.13</version>
                 <configuration>
                     <processTypes>
-<<<<<<< HEAD
                         <web>java $JAVA_OPTS -cp target/classes:target/dependency/* App</web>
-=======
-
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* go.app.App</web>
-
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* App</web>
-
->>>>>>> 045f9df9c51f4fc4010e01ed571e3bac7d7853ff
                     </processTypes>
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 
     <dependencies>
@@ -69,5 +60,3 @@
     </dependencies>
 
 </project>
-</project>
-

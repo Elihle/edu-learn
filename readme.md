@@ -6,7 +6,6 @@ them to tutors so that they can be able to learn effectively.</p>
 
 ![data_model](images/data-model.jpg)
 ---
-=======
 ![data_model](images/Data%20model.jpg)
 
 
