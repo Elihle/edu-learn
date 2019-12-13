@@ -30,6 +30,7 @@
 </div>
 
 <div class="container">
+
     <div id="search">
         <h1><b>Search For Books</b></h1>
         <h3>Let's help you find study resources :</h3>
@@ -40,9 +41,16 @@
             <button class="submit btn btn-info">search</button>
         </form>
     </div>
+    <hr/>
 </div>
-<div id="result">
-</div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="card-columns" id="result"></div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
 
 </div>
 </div>
@@ -60,20 +68,21 @@ $(document).ready(function () {
             var author = "";
 
             $.get("https://www.googleapis.com/books/v1/volumes?q=" + search, function (response) {
-                console.log(response);
+               console.log(response);
                 let list = '';
 
                 for (let i = 0; i < response.items.length; i++) {
                     const element = response.items[i];
-
                     list += `<div class='card'>
-                        <img src='${element.volumeInfo.imageLinks.smallThumbnail}' alt='books'>
-                        <div>
-                            <h4><b>${element.volumeInfo.title}</b></h4>
-                            <a href="${element.volumeInfo.previewLink}" target=_><b>View Book</b></a>
-                            <p></p>
+                        <img class="card-img-top" src='${element.volumeInfo.imageLinks.smallThumbnail}' alt='books'>
+                        <div class= "card-body">
+                            <h6 class="card-title">Title:${element.volumeInfo.title}</h6>
+                            <p class= "card-text">Author: ${(element.volumeInfo.authors) ? element.volumeInfo.authors : element.volumeInfo.publisher}</p>
+                             <a href="${element.volumeInfo.previewLink}" target=_><b>View Book</b></a>
+
+
                         </div>
-                    </div><br />`
+                    </div>`
 
                 }
                 $("#result").append(list)
