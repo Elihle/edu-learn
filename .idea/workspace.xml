@@ -2,6 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847e2280-bd6b-4542-bc68-9fbedec2dda4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/StoringUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/subjects.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/tutors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/db/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/edu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/education.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/group-study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/learn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/learners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/logo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/stud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/studing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/study-material.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/study.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/tutor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/images/wifi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/simple-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/study.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/dependency/antlr4-runtime-4.5.1-1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/dependency/commons-lang3-3.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/dependency/gson-2.8.5.jar" afterDir="false" />
@@ -98,19 +125,13 @@
       <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/mvn-dependency-list.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/edu-learn.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hotspots.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/study.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/study.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tutor.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tutor.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hotspots.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/study.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/study.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tutor.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +140,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1UnPcICN2CxgvRI7i4LdCkbWgpZ" />
   <component name="ProjectViewState">
@@ -173,38 +201,43 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="213" key="GridCell.Tab.0.bottom" timestamp="1576171118793">
+    <state width="1320" height="120" key="GridCell.Tab.0.bottom" timestamp="1576229518106">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="213" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576171118793" />
-    <state width="1320" height="213" key="GridCell.Tab.0.center" timestamp="1576171118792">
+    <state width="1320" height="120" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576229518106" />
+    <state width="1253" height="271" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576223300423" />
+    <state width="1320" height="120" key="GridCell.Tab.0.center" timestamp="1576229518106">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="213" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576171118792" />
-    <state width="1320" height="213" key="GridCell.Tab.0.left" timestamp="1576171118792">
+    <state width="1320" height="120" key="GridCell.Tab.0.center/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576229518106" />
+    <state width="1253" height="271" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1576223300422" />
+    <state width="1320" height="120" key="GridCell.Tab.0.left" timestamp="1576229518106">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="213" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576171118792" />
-    <state width="1320" height="213" key="GridCell.Tab.0.right" timestamp="1576171118792">
+    <state width="1320" height="120" key="GridCell.Tab.0.left/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576229518106" />
+    <state width="1253" height="271" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1576223300422" />
+    <state width="1320" height="120" key="GridCell.Tab.0.right" timestamp="1576229518106">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="68" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.741@0.27.1280.741" timestamp="1576153783903" />
     <state width="1320" height="157" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@0.27.1280.997" timestamp="1576069591893" />
-    <state width="1320" height="213" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576171118792" />
+    <state width="1320" height="120" key="GridCell.Tab.0.right/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576229518106" />
+    <state width="1253" height="271" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1576223300423" />
     <state x="1280" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1576161396139">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state x="1280" y="27" width="1024" height="741" key="SettingsEditor/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576161396139" />
-    <state x="1619" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576155564161">
-      <screen x="1280" y="0" width="1366" height="768" />
+    <state x="389" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1576218134372">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="1619" y="224" key="com.intellij.ide.util.TipDialog/1280.0.1366.768/0.27.1280.997@1280.0.1366.768" timestamp="1576155564161" />
+    <state x="389" y="243" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1576218134372" />
     <state x="1627" y="175" key="run.anything.popup" timestamp="1576075603402">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>

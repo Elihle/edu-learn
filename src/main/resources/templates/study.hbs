@@ -26,19 +26,21 @@
                 <a class="nav-item nav-link" href="/Tutor">Find Tutor</a>
             </div>
         </div>
-            </nav>
+    </nav>
 </div>
 
 <div class="container">
-<div id="search">
-    <h1>Search for Books</h1>
-    <form id="myform">
-        <div class="input-field">
-            <input type="search" id="books">
-        </div>
-        <button class="submit btn btn-info">search</button>
-    </form>
-</div>
+
+    <div id="search">
+        <h1><b>Search For Books</b></h1>
+        <h3>Let's help you find study resources :</h3>
+        <form id="myform">
+            <div class="input-field">
+                <input type="search" id="books" placeholder="search for a book here">
+            </div>
+            <button class="submit btn btn-info">search</button>
+        </form>
+    </div>
     <hr/>
 </div>
     <div class="row">
@@ -51,7 +53,7 @@
 
 
 </div>
-        </div>
+</div>
 <script>
 $(document).ready(function () {
     $("#myform").submit(function () {
@@ -76,6 +78,9 @@ $(document).ready(function () {
                         <div class= "card-body">
                             <h6 class="card-title">Title:${element.volumeInfo.title}</h6>
                             <p class= "card-text">Author: ${(element.volumeInfo.authors) ? element.volumeInfo.authors : element.volumeInfo.publisher}</p>
+                             <a href="${element.volumeInfo.previewLink}" target=_><b>View Book</b></a>
+
+
                         </div>
                     </div>`
 
